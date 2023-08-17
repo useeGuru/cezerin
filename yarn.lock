@@ -10600,7 +10600,7 @@ __metadata:
     sass-loader: ^13.2.0
     sharp: ^0.32.1
     sitemap: ^7.1.1
-    slug: ^8.2.2
+    slug: ^8.2.3
     stripe: ^6.7.0
     ts-node: ^10.9.1
     ts-node-dev: ^2.0.0
@@ -26479,7 +26479,7 @@ __metadata:
     nodemailer: ^6.9.3
     query-string: ^7.1.1
     sharp: ^0.32.1
-    slug: ^8.2.2
+    slug: ^8.2.3
     stripe: ^12.9.0
     ts-node: ^10.9.1
     ts-node-dev: ^2.0.0
@@ -26760,12 +26760,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slug@npm:^8.2.2":
-  version: 8.2.2
-  resolution: "slug@npm:8.2.2"
+"slug@npm:^8.2.3":
+  version: 8.2.3
+  resolution: "slug@npm:8.2.3"
   bin:
     slug: cli.js
-  checksum: 31aaedf1b7e5b440a00b57f4ddedcccfecea244ebc9603458535381415709a5c39b522c96b9298d2ee17d67ddb3556f0a9172f6bf5fd27e751baa881fd3c6fd3
+  checksum: eb2fbf8d13df0a94f09ffd7c20e02d5e88c1fdd51e178fe8e670937747dec5a97efd172956b914efd5eb3fadd65a306a68f4eed0327a8c5c9a8af30f2c95a46b
   languageName: node
   linkType: hard
 
@@ -27361,7 +27361,7 @@ __metadata:
     sass-loader: ^13.2.0
     sharp: ^0.32.1
     sitemap: ^7.1.1
-    slug: ^8.2.2
+    slug: ^8.2.3
     stripe: ^6.7.0
     ts-node: ^10.9.1
     ts-node-dev: ^2.0.0
