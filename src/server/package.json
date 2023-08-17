@@ -14,7 +14,7 @@
     "@types/formidable": "1.0.31",
     "axios": "^1.4.0",
     "cezerin2-client": "^0.38.0",
-    "formidable": "^1.2.1",
+    "formidable": "^3.5.0",
     "fs-extra": "^10.1.0",
     "handlebars": "^4.7.7",
     "helmet": "^6.0.0",
