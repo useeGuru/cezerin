@@ -182,18 +182,7 @@ If you have installed above requirements,
 We also welcome financial contributions in full transparency on our [open collective](https://opencollective.com/cezerin2).
 Anyone can file an expense. If the expense makes sense for the development of the community, it will be "merged" in the ledger of our open collective by the core contributors and the person who filed the expense will be reimbursed.
 
-## Credits
 
-### Contributors
-
-Thank you to all the people who have already contributed to cezerin2!
-
-<img src="https://github.com/ekarailiev.png" alt="Emil K." height="36" style="border-radius: 100%" />
-<a href="https://github.com/Cezerin2/cezerin2/graphs/contributors"><img src="https://opencollective.com/cezerin2/contributors.svg?width=890" /></a>
-
-## Contributing
-
-If you can, please contribute by reporting issues, discussing ideas, or submitting pull requests with patches and new features. We do our best to respond to all issues and pull requests within a day or two, and make patch releases to npm regularly.
 
 ## Licence
 
