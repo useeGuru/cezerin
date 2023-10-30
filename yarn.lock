@@ -6444,6 +6444,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sentry-internal/tracing@npm:7.76.0":
+  version: 7.76.0
+  resolution: "@sentry-internal/tracing@npm:7.76.0"
+  dependencies:
+    "@sentry/core": 7.76.0
+    "@sentry/types": 7.76.0
+    "@sentry/utils": 7.76.0
+  checksum: b64ea35aa315f3a81c0866715459359173e6a07f3b5973cde4607e56b21dbd67e8ffb5e12a66fa838119bf1983f4893c8cd7573adc8877834261012aa67dc60c
+  languageName: node
+  linkType: hard
+
 "@sentry/browser@npm:7.51.2":
   version: 7.51.2
   resolution: "@sentry/browser@npm:7.51.2"
@@ -6469,19 +6480,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/node@npm:^7.51.2":
-  version: 7.51.2
-  resolution: "@sentry/node@npm:7.51.2"
+"@sentry/core@npm:7.76.0":
+  version: 7.76.0
+  resolution: "@sentry/core@npm:7.76.0"
   dependencies:
-    "@sentry-internal/tracing": 7.51.2
-    "@sentry/core": 7.51.2
-    "@sentry/types": 7.51.2
-    "@sentry/utils": 7.51.2
-    cookie: ^0.4.1
+    "@sentry/types": 7.76.0
+    "@sentry/utils": 7.76.0
+  checksum: 76b4fedd76f31e5b0e7eef53aa557b4fb17ad89f50bf9078916983dbab33e7a0ab3fc679a47fcf53119f04e0abbb186617beef58ae733971c0dc007d6cf5b275
+  languageName: node
+  linkType: hard
+
+"@sentry/node@npm:^7.76.0":
+  version: 7.76.0
+  resolution: "@sentry/node@npm:7.76.0"
+  dependencies:
+    "@sentry-internal/tracing": 7.76.0
+    "@sentry/core": 7.76.0
+    "@sentry/types": 7.76.0
+    "@sentry/utils": 7.76.0
     https-proxy-agent: ^5.0.0
-    lru_map: ^0.3.3
-    tslib: ^1.9.3
-  checksum: 86abe40ccd69268c0ab3cf57ef9f93126e70a222da962476b3d8157c2f8225537344bfe29fc0bbb2148f9f30d3377afd6f1b20cbe3fa8f349bc27796171ad18b
+  checksum: cb50c598f8d51c702174793c0811a39ef6cd7fcfb3f7bfd31bc4f5e6a7df6449c66af8ec60a84089d2f0bc8c6ddf8dc61749c9c0df4b19af930b7c4f8d94f502
   languageName: node
   linkType: hard
 
@@ -6527,6 +6545,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sentry/types@npm:7.76.0":
+  version: 7.76.0
+  resolution: "@sentry/types@npm:7.76.0"
+  checksum: 8978b0b1e680cabc0f9f04881452832e53d636e37bfd0599a8c988ee8bbd244539a286102eba322b4b2019428ceb9c662edb69e3ec88255c8cb217e0ba84f9ce
+  languageName: node
+  linkType: hard
+
 "@sentry/utils@npm:7.51.2":
   version: 7.51.2
   resolution: "@sentry/utils@npm:7.51.2"
@@ -6534,6 +6559,15 @@ __metadata:
     "@sentry/types": 7.51.2
     tslib: ^1.9.3
   checksum: 626e4ceb17677f67b5276624509e14bc3849244d4ea103df25ab5a3b2f341d2a3e791d9bb366dc79aa39b4085418a7562ee16037ceb8d05eb4f1b4874a8f3d06
+  languageName: node
+  linkType: hard
+
+"@sentry/utils@npm:7.76.0":
+  version: 7.76.0
+  resolution: "@sentry/utils@npm:7.76.0"
+  dependencies:
+    "@sentry/types": 7.76.0
+  checksum: 6a9e796835da6daa04893817b57af180cf1b04fb6c61d7523635cf7c41f616be6fb8ba485b6f6bdd626006398dc3491b3e4c981219e4874772b7e59f545b206f
   languageName: node
   linkType: hard
 
@@ -10489,7 +10523,7 @@ __metadata:
     "@mui/x-date-pickers": ^5.0.8
     "@parcel/transformer-typescript-types": 2.9.3
     "@reduxjs/toolkit": ^1.9.0
-    "@sentry/node": ^7.51.2
+    "@sentry/node": ^7.76.0
     "@sentry/react": ^7.51.2
     "@sentry/tracing": ^7.51.2
     "@stripe/react-stripe-js": ^1.15.0
@@ -11513,13 +11547,6 @@ __metadata:
   version: 0.5.0
   resolution: "cookie@npm:0.5.0"
   checksum: 1f4bd2ca5765f8c9689a7e8954183f5332139eb72b6ff783d8947032ec1fdf43109852c178e21a953a30c0dd42257828185be01b49d1eb1a67fd054ca588a180
-  languageName: node
-  linkType: hard
-
-"cookie@npm:^0.4.1":
-  version: 0.4.2
-  resolution: "cookie@npm:0.4.2"
-  checksum: a00833c998bedf8e787b4c342defe5fa419abd96b32f4464f718b91022586b8f1bafbddd499288e75c037642493c83083da426c6a9080d309e3bd90fd11baa9b
   languageName: node
   linkType: hard
 
@@ -19747,13 +19774,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru_map@npm:^0.3.3":
-  version: 0.3.3
-  resolution: "lru_map@npm:0.3.3"
-  checksum: ca9dd43c65ed7a4f117c548028101c5b6855e10923ea9d1f635af53ad20c5868ff428c364d454a7b57fe391b89c704982275410c3c5099cca5aeee00d76e169a
-  languageName: node
-  linkType: hard
-
 "lscache@npm:^1.3.2":
   version: 1.3.2
   resolution: "lscache@npm:1.3.2"
@@ -26445,7 +26465,7 @@ __metadata:
   dependencies:
     "@koa/cors": ^4.0.0
     "@koa/router": ^12.0.0
-    "@sentry/node": ^7.51.2
+    "@sentry/node": ^7.76.0
     "@stripe/stripe-js": ^1.44.1
     "@types/formidable": 1.0.31
     "@types/fs-extra": ^9.0.13
@@ -27257,7 +27277,7 @@ __metadata:
     "@mui/material": ^5.13.0
     "@mui/x-date-pickers": ^5.0.8
     "@reduxjs/toolkit": ^1.9.0
-    "@sentry/node": ^7.51.2
+    "@sentry/node": ^7.76.0
     "@sentry/react": ^7.51.2
     "@sentry/tracing": ^7.51.2
     "@stripe/react-stripe-js": ^1.15.0
