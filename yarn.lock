@@ -5005,6 +5005,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mongodb-js/saslprep@npm:^1.1.0":
+  version: 1.1.1
+  resolution: "@mongodb-js/saslprep@npm:1.1.1"
+  dependencies:
+    sparse-bitfield: ^3.0.3
+  checksum: 0b263aef5e42a2b296c205a4afcc06c3e59817427dfdf4b5d6f49c4e5c000aa90f652006b95f726e0eac7e888031a82393a964e390d5689a2de61e945f8238d3
+  languageName: node
+  linkType: hard
+
 "@msgpackr-extract/msgpackr-extract-darwin-arm64@npm:3.0.2":
   version: 3.0.2
   resolution: "@msgpackr-extract/msgpackr-extract-darwin-arm64@npm:3.0.2"
@@ -10098,10 +10107,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bson@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "bson@npm:5.3.0"
-  checksum: c1e57630fea6b82ad8bc0fb83fd8f16a2620a836ab69f6b9433250cd19704c0c8995681a3bfab9f967eae30512f0c8ee921d42ace4c1781726600c4a367593cf
+"bson@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "bson@npm:6.2.0"
+  checksum: 950fccd2abd0ff5a1bd3637f4697631298f1538314994ab8c9e13f1c9851d0fd042b54fe8340e00151c2acee43917ea40e64b800ceeea811b00f2de3e900c77e
   languageName: node
   linkType: hard
 
@@ -10567,7 +10576,7 @@ __metadata:
     mini-css-extract-plugin: ^2.6.1
     moment: ^2.29.4
     mongodb: ^3.1.4
-    mongoose: ^7.2.2
+    mongoose: ^8.0.0
     mui-rff: ^6.1.2
     nodemailer: ^6.9.3
     postcss-loader: ^7.3.2
@@ -20388,29 +20397,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongodb@npm:5.5.0":
-  version: 5.5.0
-  resolution: "mongodb@npm:5.5.0"
+"mongodb@npm:6.2.0":
+  version: 6.2.0
+  resolution: "mongodb@npm:6.2.0"
   dependencies:
-    bson: ^5.3.0
+    "@mongodb-js/saslprep": ^1.1.0
+    bson: ^6.2.0
     mongodb-connection-string-url: ^2.6.0
-    saslprep: ^1.0.3
-    socks: ^2.7.1
   peerDependencies:
-    "@aws-sdk/credential-providers": ^3.201.0
-    mongodb-client-encryption: ">=2.3.0 <3"
+    "@aws-sdk/credential-providers": ^3.188.0
+    "@mongodb-js/zstd": ^1.1.0
+    gcp-metadata: ^5.2.0
+    kerberos: ^2.0.1
+    mongodb-client-encryption: ">=6.0.0 <7"
     snappy: ^7.2.2
-  dependenciesMeta:
-    saslprep:
-      optional: true
+    socks: ^2.7.1
   peerDependenciesMeta:
     "@aws-sdk/credential-providers":
+      optional: true
+    "@mongodb-js/zstd":
+      optional: true
+    gcp-metadata:
+      optional: true
+    kerberos:
       optional: true
     mongodb-client-encryption:
       optional: true
     snappy:
       optional: true
-  checksum: fafb75195d605767cf7269aa82a1f4704c3357240d0fef7296d55e83eab592158844988af3b94165769459ff1b2a0af2fc49bc44c9bbabd10d6ddc319668a0e0
+    socks:
+      optional: true
+  checksum: dca058e497e4d70f84509b863db33a1126f182757bc389893b31086c49ff429257e62de06f7099aba8cef8790a497f50c98fdcead6e66c451c057ed1453b2049
   languageName: node
   linkType: hard
 
@@ -20444,18 +20461,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongoose@npm:^7.2.2":
-  version: 7.2.2
-  resolution: "mongoose@npm:7.2.2"
+"mongoose@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "mongoose@npm:8.0.0"
   dependencies:
-    bson: ^5.3.0
+    bson: ^6.2.0
     kareem: 2.5.1
-    mongodb: 5.5.0
+    mongodb: 6.2.0
     mpath: 0.9.0
     mquery: 5.0.0
     ms: 2.1.3
     sift: 16.0.1
-  checksum: 8111a126f44bc119866b6d905311001a66eaa0dd309ec533752abe7302752f7245efe8a3e14655613b297aefa06d8849bbca396f29ffbcfca502f3d24fbad056
+  checksum: bb6e10147ad4b28c043f9af1a3b4e028f71de7d399b13fa457f166213177767bebad94eb128494a5f42d06211f195c2f2bdede6ba7f4a802aeb11de7d4beb455
   languageName: node
   linkType: hard
 
@@ -26016,7 +26033,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"saslprep@npm:^1.0.0, saslprep@npm:^1.0.3":
+"saslprep@npm:^1.0.0":
   version: 1.0.3
   resolution: "saslprep@npm:1.0.3"
   dependencies:
@@ -26475,7 +26492,7 @@ __metadata:
     lru-cache: ^7.14.1
     moment: ^2.29.4
     mongodb: ^3.1.4
-    mongoose: ^7.2.2
+    mongoose: ^8.0.0
     nodemailer: ^6.9.3
     query-string: ^7.1.1
     sharp: ^0.32.1
@@ -26855,16 +26872,6 @@ __metadata:
     ip: ^2.0.0
     smart-buffer: ^4.2.0
   checksum: 0b5d94e2b3c11e7937b40fc5dac1e80d8b92a330e68c51f1d271ce6980c70adca42a3f8cd47c4a5769956bada074823b53374f2dc5f2ea5c2121b222dec6eadf
-  languageName: node
-  linkType: hard
-
-"socks@npm:^2.7.1":
-  version: 2.7.1
-  resolution: "socks@npm:2.7.1"
-  dependencies:
-    ip: ^2.0.0
-    smart-buffer: ^4.2.0
-  checksum: 259d9e3e8e1c9809a7f5c32238c3d4d2a36b39b83851d0f573bfde5f21c4b1288417ce1af06af1452569cd1eb0841169afd4998f0e04ba04656f6b7f0e46d748
   languageName: node
   linkType: hard
 
@@ -27328,7 +27335,7 @@ __metadata:
     mini-css-extract-plugin: ^2.6.1
     moment: ^2.29.4
     mongodb: ^3.1.4
-    mongoose: ^7.2.2
+    mongoose: ^8.0.0
     mui-rff: ^6.1.2
     nodemailer: ^6.9.3
     postcss-loader: ^7.3.2
