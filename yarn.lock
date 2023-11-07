@@ -7635,12 +7635,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/koa__cors@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "@types/koa__cors@npm:3.3.0"
+"@types/koa__cors@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "@types/koa__cors@npm:4.0.3"
   dependencies:
     "@types/koa": "*"
-  checksum: c1aeb10b070e72b6c01a2f6abb4b0a936017794ef4eab3469697a4e24ef2054bc371519afa90c8e6c5ea9dbeda58395a64400bd499c3fda207cb593b751b44ca
+  checksum: ca7bfd1ffacf6c425393e2716a88d66dfe1b5e9a32cd92253cc846fa95bd7fd44c1dc848252f13b7febb5bccf23b8e88716b051cfa04d18fa31e0768432dccb7
   languageName: node
   linkType: hard
 
@@ -10503,7 +10503,7 @@ __metadata:
     "@types/koa-compress": ^4.0.3
     "@types/koa-mount": ^4.0.2
     "@types/koa-static": ^4.0.2
-    "@types/koa__cors": ^3.3.0
+    "@types/koa__cors": ^4.0.3
     "@types/koa__router": ^12.0.0
     "@types/lodash": ^4.14.194
     "@types/node": ^20.1.3
@@ -26452,7 +26452,7 @@ __metadata:
     "@types/jsonwebtoken": ^8.5.9
     "@types/koa": ^2.13.6
     "@types/koa-compress": ^4.0.3
-    "@types/koa__cors": ^3.3.0
+    "@types/koa__cors": ^4.0.3
     "@types/koa__router": ^12.0.0
     "@types/lodash": ^4.14.194
     "@types/node": ^20.1.3
@@ -27271,7 +27271,7 @@ __metadata:
     "@types/koa-compress": ^4.0.3
     "@types/koa-mount": ^4.0.2
     "@types/koa-static": ^4.0.2
-    "@types/koa__cors": ^3.3.0
+    "@types/koa__cors": ^4.0.3
     "@types/koa__router": ^12.0.0
     "@types/lodash": ^4.14.194
     "@types/node": ^20.1.3
