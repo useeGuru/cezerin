@@ -7619,9 +7619,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/koa@npm:^2.13.6":
-  version: 2.13.6
-  resolution: "@types/koa@npm:2.13.6"
+"@types/koa@npm:^2.13.11":
+  version: 2.13.11
+  resolution: "@types/koa@npm:2.13.11"
   dependencies:
     "@types/accepts": "*"
     "@types/content-disposition": "*"
@@ -7631,7 +7631,7 @@ __metadata:
     "@types/keygrip": "*"
     "@types/koa-compose": "*"
     "@types/node": "*"
-  checksum: a4061c2e29cd4ccb65a704fe3ef6868eac82558856c7c00a5bcc0f9fdf18c595e0156c52508eb8ba926a9108d9cf5c9a1a1b73cccf50e29b37ea1154323d0b26
+  checksum: 8116669411d5a01e1430a3c39bb62195bc41c3a0eaa4565fff0a902fc7851fe22003ae9ca4c4680d46a71a40d0c48e092f8d8a7c7e9776885bada2cfa31a84e2
   languageName: node
   linkType: hard
 
@@ -10499,7 +10499,7 @@ __metadata:
     "@types/formidable": 1.0.31
     "@types/fs-extra": ^9.0.13
     "@types/jsonwebtoken": ^8.5.9
-    "@types/koa": ^2.13.6
+    "@types/koa": ^2.13.11
     "@types/koa-compress": ^4.0.3
     "@types/koa-mount": ^4.0.2
     "@types/koa-static": ^4.0.2
@@ -26450,7 +26450,7 @@ __metadata:
     "@types/formidable": 1.0.31
     "@types/fs-extra": ^9.0.13
     "@types/jsonwebtoken": ^8.5.9
-    "@types/koa": ^2.13.6
+    "@types/koa": ^2.13.11
     "@types/koa-compress": ^4.0.3
     "@types/koa__cors": ^3.3.0
     "@types/koa__router": ^12.0.0
@@ -27267,7 +27267,7 @@ __metadata:
     "@types/formidable": 1.0.31
     "@types/fs-extra": ^9.0.13
     "@types/jsonwebtoken": ^8.5.9
-    "@types/koa": ^2.13.6
+    "@types/koa": ^2.13.11
     "@types/koa-compress": ^4.0.3
     "@types/koa-mount": ^4.0.2
     "@types/koa-static": ^4.0.2
